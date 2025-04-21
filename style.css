@@ -12,12 +12,13 @@ form{
 }
 
 input, select, button{
-  padding: 8px 5px;
+  padding: 10px 5px;
   margin: 10px;
   border: none;
   width: 42%;
   font-size: 1.2rem;
   background-color: white;
+  border-radius: 10px;
 }
 
 select{
@@ -27,8 +28,18 @@ select{
   button{
     width: 50%;
     margin-left: 20%;
-    background-color: white;
     cursor: pointer;
+    color: white;
+}
+
+#delete-btn{
+  margin-top: 2rem;
+  background-color: rgb(189, 43, 7);
+}
+
+#submit-btn{
+  background-color: rgb(36, 99, 36);
+  margin-top: 25px;
 }
 
 #js-html{
@@ -40,13 +51,19 @@ div{
   margin-top: 1rem;
 }
 
-.warning-msg{
-  color: red;
-  font-size: 1.3rem;
-}
-
 footer{
   text-align: center; 
   margin-top: 50px;
  font-size: 1.1rem;
+}
+
+/* Media Query */
+
+@media(min-width: 275px) and (max-width: 575px){
+  form input, select, button {
+    width: 100%;
+  }
+  button{
+    margin-left: 0;
+  }
 }

@@ -59,7 +59,7 @@ function addStudent() {
       <div class = "js-data"><b>Email Address:</b> <span>${email} </span></div>
       <div class = "js-data"><b>Contact Number:</b> <span>${phoneNumber} </span></div>
       <div class = "js-data"><b>Gendre:</b> <span>${gendre} </span></div>
-      <button onclick = "student.splice(${i}, 1); displayRecords();">Delete Recorde</button>
+      <button onclick = "student.splice(${i}, 1); displayRecords();" id = "delete-btn">Delete Recorde</button>
       </div>
       `;      
     }
