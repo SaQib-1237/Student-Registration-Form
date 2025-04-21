@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration Form</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+  
+  <h1>Student Registration Form</h1>
+
+  <form onsubmit="addStudent(); return false">
+      <h3>Student Information</h3>
+      <input type="text" placeholder=" First Name" id="f-name" required>
+      <input type="text" placeholder=" Last Name" id="l-name" required>
+      <input type="date" placeholder="Date of Birth" id="birth-date" required>
+      <input type="number" placeholder="Student ID" id="student-id" required>
+      <input type="text" placeholder="Street Address" id="address" required>
+      <input type="email" placeholder="Email Address" id="emil" required>
+      <input type="number" placeholder="Contact Number" id="contact-info" required>
+      <select id="select-gendre" required>
+        <option value="">Gendre</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select> 
+      <button type="submit">Submit</button>
+    </form>
+      <h3 id="recorde"></h3>
+      <div class="container"></div>
+
+      <script src="app.js"></script>
+
+  
+  
+</body>
+</html>

@@ -1,0 +1,46 @@
+*{
+  font-family: Arial;
+}
+
+body{
+
+  background-color: rgb(231, 236, 250);
+}
+
+form{
+  padding: 3rem;
+}
+
+input, select, button{
+  padding: 8px 5px;
+  margin: 10px;
+  border: none;
+  width: 42%;
+  font-size: 1.2rem;
+  background-color: white;
+}
+
+select{
+  cursor: pointer;  
+}
+  
+  button{
+    width: 50%;
+    margin-left: 20%;
+    background-color: white;
+    cursor: pointer;
+}
+
+#js-html{
+  font-size: 1.2rem;
+  margin: 50px;
+}
+
+div{
+  margin-top: 1rem;
+}
+
+.warning-msg{
+  color: red;
+  font-size: 1.3rem;
+}
