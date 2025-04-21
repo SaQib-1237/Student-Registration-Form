@@ -44,3 +44,9 @@ div{
   color: red;
   font-size: 1.3rem;
 }
+
+footer{
+  text-align: center; 
+  margin-top: 50px;
+ font-size: 1.1rem;
+}
